@@ -35,6 +35,8 @@ Bundle 'FuzzyFinder'
 Bundle 'git://git.wincent.com/command-t.git'
 
 Bundle 'The-NERD-Commenter'
+Bundle 'surround.vim'
+Bundle 'ZenCoding.vim'
 
 filetype plugin indent on     " required! 
 
@@ -90,6 +92,9 @@ set guioptions-=T
 
 " Command-T settings
 let g:CommandTMatchWindowAtTop=1
+
+" Ctrl+S mapping
+noremap <Leader>s :update<CR>
 
 set noantialias
 
