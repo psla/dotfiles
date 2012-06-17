@@ -74,6 +74,11 @@ set number      "add line numbers
 "hide buffers when not displayed
 set hidden
 
+"set higlight search
+set hlsearch
+set incsearch
+set ignorecase
+
 map <leader>r :CommandTBuffer<CR>
 
 " NERDTree mapping
