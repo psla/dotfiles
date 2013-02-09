@@ -38,13 +38,19 @@ Bundle 'The-NERD-Commenter'
 Bundle 'surround.vim'
 Bundle 'ZenCoding.vim'
 
+" latex
+Bundle 'LaTeX-Box'
+
+" Align plugin
+Bundle 'Align'
+
 filetype plugin indent on     " required! 
 
 set nowrap
 colorscheme desert
 syntax on
 
-set guifont=Consolas:h12
+" set guifont=Consolas:h12
 set expandtab
 
 highlight ExtraWhitespace ctermbg=red guibg=red
@@ -80,6 +86,9 @@ set incsearch
 set ignorecase
 
 map <leader>r :CommandTBuffer<CR>
+
+" Indentation for latex
+set smartindent
 
 " NERDTree mapping
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
