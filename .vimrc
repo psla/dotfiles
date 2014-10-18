@@ -27,6 +27,7 @@ Bundle 'vividchalk.vim'
 Bundle 'Command-T'
 Bundle 'ack.vim'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'slim-template/vim-slim.git'
 
 " vim-scripts repos
 Bundle 'L9'
@@ -119,6 +120,16 @@ set wildignore+=features/reports
 set wildignore+=coverage
 
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
+
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
+
+" Use the same symbols as TextMate for tabstops and EOLs
+set listchars=tab:▸\
+
+"Invisible character colors
+highlight NonText guifg=#4a4a59
+highlight SpecialKey guifg=#4a4a59
 
 
 "
