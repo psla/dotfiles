@@ -51,7 +51,8 @@ set nowrap
 colorscheme desert
 syntax on
 
-" set guifont=Consolas:h12
+" set guifont=Monaco:h14
+set guifont=Consolas:h14
 set expandtab
 
 highlight ExtraWhitespace ctermbg=red guibg=red
@@ -111,7 +112,9 @@ let g:CommandTMatchWindowAtTop=1
 " Ctrl+S mapping
 noremap <Leader>s :update<CR>
 
-set noantialias
+" macvim: use anti for better font-weight on imac 29
+set anti
+" set noantialias
 
 set wildignore+=doc/app
 set wildignore+=tmp
