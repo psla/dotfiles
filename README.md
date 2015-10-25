@@ -11,7 +11,7 @@ Vim
 
 Vim required vundle (https://github.com/gmarik/vundle)
 
-uick install:
+quick install:
 
 ```
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
@@ -20,3 +20,10 @@ run vim
 ```
 
 Some of the files were taken from doriath repository. Thanks.
+
+Make Command-T work with ruby & macvim from brew:
+```
+cd ~/.vim/bundle/command-t/ruby/command-t
+ruby extconf.rb
+make
+```
