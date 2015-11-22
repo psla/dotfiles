@@ -44,8 +44,8 @@ choco install vim
 git clone https://github.com/gmarik/Vundle.vim.git %USERPROFILE%/.vim/bundle/Vundle.vim
 # vim -> BundleInstall
 
-choco install -y google-chrome-x64 notepadplusplus.install git.install 7zip.install vlc ccleaner gimp sysinternals skype winscp.install pscx thunderbird slack ruby
-choco install visualstudio2015community
+choco install -y google-chrome-x64 notepadplusplus.install git.install 7zip.install vlc ccleaner gimp sysinternals skype winscp.install pscx thunderbird slack ruby totalcommander onedrive keepass.install owncloud-client
+choco install office365homepremium visualstudio2015community
 
 # this will not enable command-t just yet
 
