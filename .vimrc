@@ -128,7 +128,7 @@ set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 nmap <leader>l :set list!<CR>
 
 " Use the same symbols as TextMate for tabstops and EOLs
-set listchars=tab:▸\
+set listchars=tab:>\
 
 "Invisible character colors
 highlight NonText guifg=#4a4a59
