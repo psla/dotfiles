@@ -46,6 +46,8 @@ git clone https://github.com/gmarik/Vundle.vim.git %USERPROFILE%/.vim/bundle/Vun
 
 choco install -y google-chrome-x64 notepadplusplus.install git.install 7zip.install vlc ccleaner gimp sysinternals skype winscp.install pscx thunderbird slack ruby totalcommander onedrive keepass.install owncloud-client cygwin smartmontools
 choco install office365homepremium visualstudio2015community
+# for sql express
+choco install -y MsSqlServer2014Express MsSqlServerManagementStudio2014Express
 
 # this will not enable command-t just yet
 
