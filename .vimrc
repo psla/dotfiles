@@ -51,8 +51,13 @@ set nowrap
 colorscheme desert
 syntax on
 
-" set guifont=Monaco:h14
-set guifont=Consolas:h14
+if has("gui_gtk2")
+    set guifont=Mono Uralic 10
+elseif has("gui_macvim")
+    set guifont=Consolas:h14
+elseif has("gui_win32")
+    set guifont=Consolas:h14
+end
 set expandtab
 
 highlight ExtraWhitespace ctermbg=red guibg=red
