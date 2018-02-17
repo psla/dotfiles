@@ -14,5 +14,5 @@ Set-ExecutionPolicy RemoteSigned
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
 Get your box ready. Refer to choco installation in readme above.
-#choco install -y google-chrome-x64 notepadplusplus.install git.install 7zip.install vlc ccleaner gimp sysinternals skype winscp.install pscx thunderbird slack
+#choco install -y google-chrome-x64 notepadplusplus.install git.install 7zip.install vlc ccleaner gimp sysinternals skype winscp.install pscx thunderbird slack sqlite sqlite.shell
 #choco install visualstudio2015community
